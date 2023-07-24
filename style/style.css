@@ -1,0 +1,55 @@
+@media (max-width: 1920px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: scroll;
+
+    background-image: linear-gradient(
+      rgba(105, 131, 158, 0.139),
+      rgb(112, 112, 139)
+    );
+  }
+  .sec1 {
+    display: none;
+    width: 600px;
+    height: 1200px;
+  }
+
+  .mobile {
+    display: block;
+
+    width: 600px;
+    height: 1200px;
+    color: black;
+    background-color: white;
+  }
+
+  .sec2 {
+    width: 600px;
+  }
+  div {
+    width: 600px;
+
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  img {
+    width: 600px;
+  }
+  iframe {
+    width: 600px;
+    height: 400px;
+  }
+
+  object {
+    width: 600px;
+    height: 600px;
+  }
+}
